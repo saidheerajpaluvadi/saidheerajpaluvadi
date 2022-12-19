@@ -208,16 +208,6 @@ header {
     padding-left: 18px;
 }
 
-.contact-content .left .submit-icon {
-    background-color: #f4af1b;
-    margin-top: 18px;
-    border-radius: 0;
-    margin-left: -5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 18px;
-}
-
 .contact-content .right {
     border-left: 2px solid #fff;
 }
@@ -237,23 +227,14 @@ header {
 .contact-content .right .download {
     background-color: #ffd55a;
     border-radius: 0;
-    margin-top: 111px;
-    padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 18px;
+    padding-top: 10px;
+    position: relative;
+    top: 110px;
 }
 
 .contact-content .right .download a {
     text-decoration: none;
     color: black;
-}
-
-.contact-content .right .download-icon {
-    background-color: #f4af1b;
-    border-radius: 0;
-    margin-top: 111px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 18px;
-    margin-left: -5px;
 }
