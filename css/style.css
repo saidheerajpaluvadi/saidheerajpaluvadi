@@ -56,6 +56,22 @@ html {
     background-color: #ffffff;
 }
 
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro>* {
+    flex: 1;
+}
+
+.intro .intro-right {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .intro .intro-row {
     margin-bottom: 20px;
 }
