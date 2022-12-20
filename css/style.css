@@ -39,6 +39,11 @@ html {
     box-shadow: 0 1px rgba(0, 0, 0, .2);
 }
 
+.navbar .nav {
+    position: relative;
+    left: 50vw;
+}
+
 .navbar .navbar-brand {
     color: inherit !important;
 }
@@ -59,6 +64,7 @@ html {
 .intro {
     display: flex;
     flex-direction: row;
+    width: unset;
 }
 
 .intro>* {
@@ -105,9 +111,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding: 15px 10%;
-    display: flex;
-    justify-content: space-evenly;
+    padding: 15px 0;
     font-size: 28px;
     font-weight: bold;
 }
@@ -119,8 +123,15 @@ html {
 .about {
     text-align: center;
     width: 50%;
-    margin: 0 auto;
-    padding: 40px 90px;
+    margin: 40px auto;
+    padding: 0 90px;
+}
+
+@media (max-width: 800px) {
+    .about {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 .about .greeting {
@@ -146,6 +157,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
+    width: unset;
+    max-width: 800px;
 }
 
 .skills-content .skill-image {
@@ -166,6 +179,8 @@ header {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 10px;
+    width: unset;
+    max-width: 800px;
 }
 
 .projects-content .sub-header {
@@ -253,4 +268,15 @@ header {
 .contact-content .right .download a {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 800px) {
+    .contact-content {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.material-symbols-outlined {
+    border: none !important;
 }

@@ -1,5 +1,5 @@
 .timeline {
-    width: 50%;
+    max-width: 800px;
     margin: 15px auto;
     background: #fff;
     padding: 0 50px;
