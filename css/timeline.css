@@ -4,6 +4,7 @@
     background: #fff;
     padding: 0 50px;
     position: relative;
+    border-radius: 30px;
 }
 
 .timeline:before {
